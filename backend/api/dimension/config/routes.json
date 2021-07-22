@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/dimensions",
+      "handler": "dimension.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/dimensions/count",
+      "handler": "dimension.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/dimensions/:id",
+      "handler": "dimension.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/dimensions",
+      "handler": "dimension.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/dimensions/:id",
+      "handler": "dimension.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/dimensions/:id",
+      "handler": "dimension.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

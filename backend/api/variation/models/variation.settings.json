@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "variations",
+  "info": {
+    "name": "Variation",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "dimension": {
+      "model": "dimension"
+    },
+    "material": {
+      "model": "material"
+    },
+    "Stock": {
+      "type": "integer"
+    },
+    "Prix": {
+      "type": "decimal"
+    },
+    "Reference": {
+      "type": "uid",
+      "required": true
+    },
+    "produit": {
+      "model": "produit"
+    },
+    "taille": {
+      "model": "taille"
+    }
+  }
+}

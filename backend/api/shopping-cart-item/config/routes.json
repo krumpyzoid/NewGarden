@@ -1,0 +1,60 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/shopping-cart-items",
+      "handler": "shopping-cart-item.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/shopping-cart-items/count",
+      "handler": "shopping-cart-item.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/shopping-cart-items/:id",
+      "handler": "shopping-cart-item.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/shopping-cart-items",
+      "handler": "shopping-cart-item.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/shopping-cart-items/:id",
+      "handler": "shopping-cart-item.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/shopping-cart-items/:id/quantity",
+      "handler": "shopping-cart-item.updatequantity",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/shopping-cart-items/:id",
+      "handler": "shopping-cart-item.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tailles",
+  "info": {
+    "name": "Taille"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "taille": {
+      "type": "string"
+    }
+  }
+}

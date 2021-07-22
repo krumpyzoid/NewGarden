@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/order-status-codes",
+      "handler": "order-status-code.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/order-status-codes/count",
+      "handler": "order-status-code.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/order-status-codes/:id",
+      "handler": "order-status-code.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/order-status-codes",
+      "handler": "order-status-code.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/order-status-codes/:id",
+      "handler": "order-status-code.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/order-status-codes/:id",
+      "handler": "order-status-code.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

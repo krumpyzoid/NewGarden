@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "order_status_codes",
+  "info": {
+    "name": "OrderStatusCode"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "StatusCode": {
+      "type": "integer"
+    },
+    "Description": {
+      "type": "string"
+    }
+  }
+}
